@@ -31,7 +31,7 @@ class mtp_app:
  
     def __init__(self):
         builder = Gtk.Builder()
-        builder.add_from_file("glade_files/main_window.xml") 
+        builder.add_from_file("../glade_files/main_window.glade") 
         
         self.window = builder.get_object("window1")
         self.switcher = builder.get_object("switch1")
